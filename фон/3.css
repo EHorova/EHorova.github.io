@@ -1,0 +1,28 @@
+﻿video {
+    position: fixed;
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    opacity:0.9;
+}
+body{
+    margin:0;
+}
+
+TABLE {
+    border: 10px solid rgba(121, 235, 253, 0.10); /* Рамка вокруг таблицы */
+}
+
+TD, TH {
+    padding: 3px; /* Поля вокруг содержимого ячеек */
+    border: 10px solid rgba(121, 235, 253, 0.50);
+    background: rgba(240, 248, 255, 0.10)
+}
+
+TH {
+    text-align: left; /* Выравнивание по левому краю */
+    color: white; /* Цвет текста */
+    border: 10px solid rgba(121, 235, 253, 0.50);
+    background: rgba(240, 248, 255, 0.50)
+}
